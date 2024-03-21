@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: rgb(48, 60, 135);
+    overflow: hidden;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    cursor: default;
+    text-align: center;
+}
+
+table thead tr
+{
+    background: #eee;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 2%;
+}
+
+table tbody td, table thead th {padding: 10px;}
+
+table tbody td {border-bottom: 1px solid #000000;}
+
+table tbody tr:hover {
+    background-color: rgb(91, 109, 212); cursor: crosshair;
+}
+
+.zebra { background: #89bada;}
+
+.centro { 
+    background: rgb(138, 213, 222);
+    padding: 2%;
+}
+
+
+td img {
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+th {
+    padding: 1.7%;
+    font-size: large;
+}
