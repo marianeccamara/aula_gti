@@ -1,0 +1,20 @@
+Para ver se é repositório 
+$ git status
+
+Inicializar um repositório
+$ git init
+
+Adicionar origem remota (github)
+$ git add remote  origin https://github.com.....
+
+Adicionar (rastrear) novo repositório
+$ git add .
+
+Confirmar alterações
+$ igt commit -a -m "sua mensagem aqui"
+
+Enviar ao github
+$ git push origin master 
+
+Clonar um repositório do github
+$ git clone https://github.com
